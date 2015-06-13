@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7B434E681B2C279400DA6A9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B434E671B2C279400DA6A9F /* main.m */; };
+		7B434E6B1B2C279400DA6A9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B434E6A1B2C279400DA6A9F /* AppDelegate.m */; };
+		7B434E6E1B2C279400DA6A9F /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B434E6D1B2C279400DA6A9F /* FirstViewController.m */; };
+		7B434E711B2C279400DA6A9F /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B434E701B2C279400DA6A9F /* SecondViewController.m */; };
+		7B434E741B2C279400DA6A9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B434E721B2C279400DA6A9F /* Main.storyboard */; };
+		7B434E761B2C279400DA6A9F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B434E751B2C279400DA6A9F /* Images.xcassets */; };
+		7B434E791B2C279400DA6A9F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7B434E771B2C279400DA6A9F /* LaunchScreen.xib */; };
+		7B434E851B2C279400DA6A9F /* AngelHackPureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B434E841B2C279400DA6A9F /* AngelHackPureTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B434E7F1B2C279400DA6A9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B434E5A1B2C279400DA6A9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B434E611B2C279400DA6A9F;
+			remoteInfo = AngelHackPure;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7B434E621B2C279400DA6A9F /* AngelHackPure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AngelHackPure.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B434E661B2C279400DA6A9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B434E671B2C279400DA6A9F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B434E691B2C279400DA6A9F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7B434E6A1B2C279400DA6A9F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7B434E6C1B2C279400DA6A9F /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		7B434E6D1B2C279400DA6A9F /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		7B434E6F1B2C279400DA6A9F /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		7B434E701B2C279400DA6A9F /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		7B434E731B2C279400DA6A9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B434E751B2C279400DA6A9F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7B434E781B2C279400DA6A9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		7B434E7E1B2C279400DA6A9F /* AngelHackPureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AngelHackPureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B434E831B2C279400DA6A9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B434E841B2C279400DA6A9F /* AngelHackPureTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AngelHackPureTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B434E5F1B2C279400DA6A9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B434E7B1B2C279400DA6A9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B434E591B2C279400DA6A9F = {
+			isa = PBXGroup;
+			children = (
+				7B434E641B2C279400DA6A9F /* AngelHackPure */,
+				7B434E811B2C279400DA6A9F /* AngelHackPureTests */,
+				7B434E631B2C279400DA6A9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7B434E631B2C279400DA6A9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B434E621B2C279400DA6A9F /* AngelHackPure.app */,
+				7B434E7E1B2C279400DA6A9F /* AngelHackPureTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B434E641B2C279400DA6A9F /* AngelHackPure */ = {
+			isa = PBXGroup;
+			children = (
+				7B434E691B2C279400DA6A9F /* AppDelegate.h */,
+				7B434E6A1B2C279400DA6A9F /* AppDelegate.m */,
+				7B434E6C1B2C279400DA6A9F /* FirstViewController.h */,
+				7B434E6D1B2C279400DA6A9F /* FirstViewController.m */,
+				7B434E6F1B2C279400DA6A9F /* SecondViewController.h */,
+				7B434E701B2C279400DA6A9F /* SecondViewController.m */,
+				7B434E721B2C279400DA6A9F /* Main.storyboard */,
+				7B434E751B2C279400DA6A9F /* Images.xcassets */,
+				7B434E771B2C279400DA6A9F /* LaunchScreen.xib */,
+				7B434E651B2C279400DA6A9F /* Supporting Files */,
+			);
+			path = AngelHackPure;
+			sourceTree = "<group>";
+		};
+		7B434E651B2C279400DA6A9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B434E661B2C279400DA6A9F /* Info.plist */,
+				7B434E671B2C279400DA6A9F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B434E811B2C279400DA6A9F /* AngelHackPureTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B434E841B2C279400DA6A9F /* AngelHackPureTests.m */,
+				7B434E821B2C279400DA6A9F /* Supporting Files */,
+			);
+			path = AngelHackPureTests;
+			sourceTree = "<group>";
+		};
+		7B434E821B2C279400DA6A9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B434E831B2C279400DA6A9F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B434E611B2C279400DA6A9F /* AngelHackPure */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B434E881B2C279400DA6A9F /* Build configuration list for PBXNativeTarget "AngelHackPure" */;
+			buildPhases = (
+				7B434E5E1B2C279400DA6A9F /* Sources */,
+				7B434E5F1B2C279400DA6A9F /* Frameworks */,
+				7B434E601B2C279400DA6A9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AngelHackPure;
+			productName = AngelHackPure;
+			productReference = 7B434E621B2C279400DA6A9F /* AngelHackPure.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B434E7D1B2C279400DA6A9F /* AngelHackPureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B434E8B1B2C279400DA6A9F /* Build configuration list for PBXNativeTarget "AngelHackPureTests" */;
+			buildPhases = (
+				7B434E7A1B2C279400DA6A9F /* Sources */,
+				7B434E7B1B2C279400DA6A9F /* Frameworks */,
+				7B434E7C1B2C279400DA6A9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B434E801B2C279400DA6A9F /* PBXTargetDependency */,
+			);
+			name = AngelHackPureTests;
+			productName = AngelHackPureTests;
+			productReference = 7B434E7E1B2C279400DA6A9F /* AngelHackPureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B434E5A1B2C279400DA6A9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = ChunQhai;
+				TargetAttributes = {
+					7B434E611B2C279400DA6A9F = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					7B434E7D1B2C279400DA6A9F = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 7B434E611B2C279400DA6A9F;
+					};
+				};
+			};
+			buildConfigurationList = 7B434E5D1B2C279400DA6A9F /* Build configuration list for PBXProject "AngelHackPure" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B434E591B2C279400DA6A9F;
+			productRefGroup = 7B434E631B2C279400DA6A9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B434E611B2C279400DA6A9F /* AngelHackPure */,
+				7B434E7D1B2C279400DA6A9F /* AngelHackPureTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B434E601B2C279400DA6A9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B434E741B2C279400DA6A9F /* Main.storyboard in Resources */,
+				7B434E791B2C279400DA6A9F /* LaunchScreen.xib in Resources */,
+				7B434E761B2C279400DA6A9F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B434E7C1B2C279400DA6A9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B434E5E1B2C279400DA6A9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B434E711B2C279400DA6A9F /* SecondViewController.m in Sources */,
+				7B434E6B1B2C279400DA6A9F /* AppDelegate.m in Sources */,
+				7B434E6E1B2C279400DA6A9F /* FirstViewController.m in Sources */,
+				7B434E681B2C279400DA6A9F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B434E7A1B2C279400DA6A9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B434E851B2C279400DA6A9F /* AngelHackPureTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B434E801B2C279400DA6A9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B434E611B2C279400DA6A9F /* AngelHackPure */;
+			targetProxy = 7B434E7F1B2C279400DA6A9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B434E721B2C279400DA6A9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B434E731B2C279400DA6A9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B434E771B2C279400DA6A9F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B434E781B2C279400DA6A9F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B434E861B2C279400DA6A9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7B434E871B2C279400DA6A9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B434E891B2C279400DA6A9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AngelHackPure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7B434E8A1B2C279400DA6A9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AngelHackPure/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7B434E8C1B2C279400DA6A9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AngelHackPureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AngelHackPure.app/AngelHackPure";
+			};
+			name = Debug;
+		};
+		7B434E8D1B2C279400DA6A9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AngelHackPureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AngelHackPure.app/AngelHackPure";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B434E5D1B2C279400DA6A9F /* Build configuration list for PBXProject "AngelHackPure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B434E861B2C279400DA6A9F /* Debug */,
+				7B434E871B2C279400DA6A9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B434E881B2C279400DA6A9F /* Build configuration list for PBXNativeTarget "AngelHackPure" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B434E891B2C279400DA6A9F /* Debug */,
+				7B434E8A1B2C279400DA6A9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7B434E8B1B2C279400DA6A9F /* Build configuration list for PBXNativeTarget "AngelHackPureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B434E8C1B2C279400DA6A9F /* Debug */,
+				7B434E8D1B2C279400DA6A9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B434E5A1B2C279400DA6A9F /* Project object */;
+}
